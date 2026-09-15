@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-15">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="Krackhardt Kite">
+    <nodes>
+      <node id="Andre" label="Andre" />
+      <node id="Beverly" label="Beverly" />
+      <node id="Carol" label="Carol" />
+      <node id="Diane" label="Diane" />
+      <node id="Ed" label="Ed" />
+      <node id="Fernando" label="Fernando" />
+      <node id="Garth" label="Garth" />
+      <node id="Heather" label="Heather" />
+      <node id="Ike" label="Ike" />
+      <node id="Jane" label="Jane" />
+    </nodes>
+    <edges>
+      <edge source="Andre" target="Beverly" id="0" />
+      <edge source="Andre" target="Carol" id="1" />
+      <edge source="Andre" target="Diane" id="2" />
+      <edge source="Andre" target="Fernando" id="3" />
+      <edge source="Beverly" target="Diane" id="4" />
+      <edge source="Beverly" target="Ed" id="5" />
+      <edge source="Beverly" target="Garth" id="6" />
+      <edge source="Carol" target="Diane" id="7" />
+      <edge source="Carol" target="Fernando" id="8" />
+      <edge source="Diane" target="Ed" id="9" />
+      <edge source="Diane" target="Fernando" id="10" />
+      <edge source="Diane" target="Garth" id="11" />
+      <edge source="Ed" target="Garth" id="12" />
+      <edge source="Fernando" target="Garth" id="13" />
+      <edge source="Fernando" target="Heather" id="14" />
+      <edge source="Garth" target="Heather" id="15" />
+      <edge source="Heather" target="Ike" id="16" />
+      <edge source="Ike" target="Jane" id="17" />
+    </edges>
+  </graph>
+</gexf>
